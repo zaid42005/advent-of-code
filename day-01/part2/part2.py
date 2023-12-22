@@ -17,4 +17,4 @@ def translate(line):
         print (num,name)
 
 digit_names = ["one","two","three","four","five","six","seven","eight","nine"]
-main(open("test1.txt","r").read())
+main(open("spelledNumbers.txt","r").read())
