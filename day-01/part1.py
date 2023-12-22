@@ -10,4 +10,4 @@ def main(input):
     
     return 
 
-main(open("test1.txt","r").read())
+main(open("input.txt","r").read())
