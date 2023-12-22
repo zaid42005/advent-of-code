@@ -14,7 +14,9 @@ def main(input):
 
 def translate(line):
     for num, name in enumerate(digit_names):
+        line = line.replace(name, f"{name}{num}{name}") # this gets around eightwo really well by making two2two while perserving the other numbers stuff, didnt think of this on my own had to do some digging thanks anshuman dash
         print (num,name)
+    return line 
 
-digit_names = ["one","two","three","four","five","six","seven","eight","nine"]
-main(open("spelledNumbers.txt","r").read())
+digit_names = ["one","two","three","four","five","six","seven","eight","nine","zero"]
+print(main(open("spelledNumbers.txt","r").read()))
