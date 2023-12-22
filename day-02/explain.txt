@@ -1,0 +1,5 @@
+part1:
+elf shows you balls in combinations
+In each game he shows 3 diff combinations
+Says he had x,y,z balls so which games scenarios were possible?
+whichever were possible sum their gameIDs

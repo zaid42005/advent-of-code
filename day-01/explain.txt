@@ -1,0 +1,5 @@
+part 1:
+just check string for if numeric and add them up
+
+part 2:
+same principle but you have to convert strings to numeric and watch out for false flags like the eightwo
