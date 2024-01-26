@@ -1,2 +1,2 @@
 ﻿## advent-of-code
-> practicing rust throught the advent of code programming puzzles
+> practicing rust through the advent of code programming puzzles
